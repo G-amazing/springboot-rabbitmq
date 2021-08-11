@@ -4,3 +4,5 @@ spring:
     port: 5672
     username: guest
     password: guest
+    publisher-confirms: true # 交换机确认
+    publisher-returns: true  # 回退消息
